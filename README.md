@@ -18,7 +18,7 @@ Welcome to Quizkarten app, a guessing card game app.
 ## Installation
 1. Clone this github repository:
 ```bash
-git clone https://github.com/byluisfer/M323_LB2_Quizzkarten.git
+git clone https://github.com/Emresen54/Modul-323-Projekt
 cd M323_LB2_Quizzkarten
 ```
 2. Install webpack-dev-server:
