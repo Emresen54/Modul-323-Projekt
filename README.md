@@ -1,5 +1,5 @@
 # Modul-323-Projekt
-# Quizkarten App - LB2_Projekt - 
+# Quizkarten App 
 Welcome to Quizkarten app, a guessing card game app.
 
 ## Features
@@ -19,7 +19,7 @@ Welcome to Quizkarten app, a guessing card game app.
 1. Clone this github repository:
 ```bash
 git clone https://github.com/Emresen54/Modul-323-Projekt
-cd M323_LB2_Quizzkarten
+cd Modul-323-Projekt
 ```
 2. Install webpack-dev-server:
 ```bash
