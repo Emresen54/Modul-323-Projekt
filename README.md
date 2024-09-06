@@ -34,4 +34,4 @@ npm run dev
 http://localhost:9000
 ```
 ## Information 
-Ich habe Testing gemacht, es war funktioniert, aber wenn ich in JS Code Modul_Export habe, dann wurde es nicht weiter funktioniert; deshalb habe ich den Testcode, aber kein Modul_Export usw.
+Ich habe Testing gemacht, es war funktioniert, aber wenn ich in JS Code Modul_Export habe, dann wurde es nicht weiter funktioniert; deshalb habe ich den Testcode, aber kein Modul_Export usw. in meinem JS Code.
