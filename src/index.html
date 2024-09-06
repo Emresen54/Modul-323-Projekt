@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Cards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <style>
+      /* Ensure body and html take the full screen height */
+      html, body {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <!-- Header with full width and content aligned to the left -->
+    <header class="w-full bg-blue-700 text-white py-2">
+      <div class="flex justify-between mx-96">
+        <div class="flex items-center"> <!-- Align items to the left -->
+          <img src="icon.png" alt="Logo for the header" class="max-w-16 py-1">    
+          <h1 class="text-2xl font-black ml-4">Module 323 - Quiz Cards</h1> <!-- Main heading aligned left -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Main section -->
+    <main class="py-4 flex-grow mx-96" id="app">
+      <!-- Centered My Quiz Cards title -->
+      <div class="flex justify-center mt-12">
+        <h2 class="text-4xl font-bold text-black">My Quiz Cards</h2> <!-- Larger text and black color -->
+      </div>
+
+      <!-- Flashcards will be displayed under the "My Quiz Cards" heading -->
+      <div class="flex flex-wrap justify-center mt-8">
+        <!-- Flashcards will be inserted here dynamically by your app logic (index.js) -->
+      </div>
+    </main>
+
+    <!-- Footer with full width and centered content -->
+    <footer class="w-full bg-blue-700 text-white py-4 mt-auto">
+      <div class="mx-96">
+        <p class="text-xl text-center mt-3 mb-3">Copyright© Quiz Cards 2024</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
